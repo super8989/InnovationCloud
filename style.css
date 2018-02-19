@@ -1,0 +1,171 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+}
+
+/* Header */
+
+.header {
+  background: url(./resources/bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  color: white;
+  font-size: 80px;
+  line-height: 100px;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+}
+
+
+.header p {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background .5s;
+}
+
+.btn:hover {
+  transition: background .5s;
+  background: #117bff;
+}
+
+/* nav */
+
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  list-style: none;
+}
+
+.nav ul {
+  margin: 0 auto;
+  padding: 0;
+  height: 80px;
+  list-style: none;
+
+}
+
+.nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  padding: 0 10px;
+  transition: background .5s;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.nav ul li:hover {
+  transition: background .5s;
+  background: #117bff;
+}
+
+/* Main */
+
+.main .container {
+  margin: 80px auto;
+
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background: url(./resources/jumbotron_bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+  color: white;
+  text-align: right;
+}
+
+.jumbotron .btn {
+  float: right;
+  margin: 10px 0 0;
+}
+
+@media (max-width: 500px) {
+  .jumbotron {
+    padding: 0 30px;
+  }
+}
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  height: 80px;
+  padding-bottom: 50px;
+}
+
+.footer p {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+}
